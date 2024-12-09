@@ -1,0 +1,180 @@
+# 学习使用工具
+ -  robostudio
+     -  <a href="file:\\10.254.0.28\Share Open\机器人事业部\研发一部\release\robostudio_release">robostudio</a>
+     -  [robostuido_android](https://download.slamtec.com/api/download/robostudio-installer-android/6?lang=netural)
+ -  设备工具
+     -  CAN分析仪
+         -  工具目录
+             -  <a href="file:\\10.254.0.3\Share\temp\chenxin\FAQ&方案汇总（我要做什么）\学习使用工具\设备工具\CAN分析仪">CAN分析仪Tool</a>
+         -  使用文档
+     -  万用表
+         -  使用文档
+     -  串口
+         -  工具目录
+         -  使用文档
+     -  示波器
+         -  使用文档
+             -  <a href="file:\\10.254.0.3\Share\temp\chenxin\FAQ&方案汇总（我要做什么）\学习使用工具\设备工具\示波器">示波器的基本操作图解与详细解释</a>
+ -  软件工具
+     -  远程工具
+         -  [向日葵](https://sunlogin.oray.com/download/)
+         -  [todesk](https://www.todesk.com/download.html)
+         -  [teamviewer](https://www.teamviewer.com/en/download/windows/)
+     -  录屏工具
+         -  [ev录屏](https://www.ieway.cn/evcapture.html)
+         -  [bandicam](https://www.bandicam.cn/downloads/)
+     -  shell终端工具
+         -  [MobaXterm](https://mobaxterm.mobatek.net/download.html)
+         -  [finalshell](https://www.hostbuf.com/)
+     -  3d参数计算工具
+         -  <a href="file:\\10.254.0.3\Share\temp\chenxin\FAQ&方案汇总（我要做什么）\学习使用工具\软件工具\3d参数计算工具\mrpt">mrpt</a>
+     -  文件对比工具
+         -  [winmerge](https://winmerge.org/downloads/?lang=en)
+     -  文本编辑器
+         -  [sublime Text](https://www.sublimetext.com/)
+         -  [notepad++](https://notepad-plus-plus.org/downloads/)
+     -  git
+         -  [git](https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git)
+         -  [客户配置文件git管理引导](https://confluence.slamtec.com/pages/viewpage.action?pageId=127042333)
+     -  雷达工具
+         -  <a href="file:\\10.254.0.3\Share\temp\chenxin\FAQ&方案汇总（我要做什么）\学习使用工具\软件工具\雷达工具\framegrabber">framegrabber</a>
+         -  <a href="\\10.254.0.3\Share\temp\chenxin\FAQ&方案汇总（我要做什么）\学习使用工具\软件工具\雷达工具\tcp_bridge">tcp_bridge</a>
+     -  SDK测试工具
+         -  [POSTMAN](https://www.postman.com/downloads/)
+         -  <a href="file:\\10.254.0.3\Share\temp\chenxin\FAQ&方案汇总（我要做什么）\学习使用工具\软件工具\SDK测试工具\api测试POSTMAN导入文件">api测试POSTMAN导入文件</a>
+     -  编译器
+     -  打包工具
+         -  [IPC定制固件打包](https://confluence.slamtec.com/pages/viewpage.action?pageId=127045413)
+         -  [RK3399定制固件打包方式](https://confluence.slamtec.com/pages/viewpage.action?pageId=82642718)
+# 建图定位
+ - 定位
+     - 定位相关配置项 
+     - 定位问题分析
+     - 了解定位
+         - [onlineslam核心模块说明中关于定位的部分](https://confluence.slamtec.com/pages/viewpage.action?pageId=51090109)
+ - 建图
+     - [场景案例](https://slamtec.feishu.cn/drive/folder/EGPUfu5bPlKdZddvCdacXESknc0)
+         - [慧闻阿坝、泸州现场](https://slamtec.feishu.cn/docx/XHCXdmDQhobwiGxuK8kceZJ4nZg)
+         - [华为工厂仓库高变场景定位丢失](https://slamtec.feishu.cn/docx/NB3SdZAGcoCAT5xjsj3cee7inuf)
+         - [华为水站巡检](https://slamtec.feishu.cn/docx/Whu1dNUdmoAIllxwNNRcmyrIn0d)
+     - 建图技巧
+        - [建图部署手册](https://slamtec.feishu.cn/docx/AHEbdgXkDoizDixCwqDcoMQynVb?from=from_copylink)
+        - wiki链接：
+             - [KBSW190101 建图系统使用说明](https://wiki.slamtec.com/pages/viewpage.action?pageId=24936573)
+             - [KBSW180151 如何构建一张满足导航需求的地图？](https://wiki.slamtec.com/pages/viewpage.action?pageId=7929908)
+# 指导客户熟悉或使用底盘
+ - 开箱检查
+     - 开箱检查方式
+ - robostudio
+     - [下载链接 windows](https://download.slamtec.com/api/download/robostudio-installer-win32/2.0.0-rtm?lang=netural)
+     - [下载链接 android](https://download.slamtec.com/api/download/robostudio-installer-android/6?lang=netural)
+     - [用户手册 windows](https://bucket-download.slamtec.com/eb5e47a9a4d705172ff5c71576a66c628f769e45/SA008_SLAMTEC_slamware_robot_studio_appnote_v1.5_cn.pdf)
+     - [用户手册 Android](https://bucket-download.slamtec.com/edccba08db435318ec3f75d40dd0652ebc6f2834/SLAMTEC_slamware_robot_studio_andriod_v2.0_cn.pdf)
+ - 验证传感器是否触发
+    - [如何使用robostudio检查一个传感器是否触发](https://slamtec.feishu.cn/docx/FziZd39sJo8wK6xibeHcGHIznsf?from=from_copylink)
+    - [如何禁用一个传感器](https://slamtec.feishu.cn/docx/Bt10dToR2oCInexkjERcnfebn5f?from=from_copylink)
+ - SDK与API的使用
+     - SDK
+         - [SDK下载地址](https://www.slamtec.com/cn/Support#slamware)
+         - [windows SDK 例程](https://wiki.slamtec.com/pages/viewpage.action?pageId=20021512)
+         - [Android SDK 例程](https://wiki.slamtec.com/display/SD/Android+SDK+Sample+Overview)
+         - [linux SDK 例程](https://wiki.slamtec.com/pages/viewpage.action?pageId=38666274)
+         - [安卓demo-UIcommander](https://github.com/SlamtecSupport/UICommander.Android)
+     - API
+         - [API在线地址](https://docs.slamtec.com/)
+         - [API EN docs](https://docs-en.slamtec.com/#/)
+         - [Restful api demo](https://wiki.slamtec.com/display/SD/RESTful+SDK)   
+         -  <a href="file:\\10.254.0.3\Share\temp\chenxin\FAQ&方案汇总（我要做什么）\指导客户使用或熟悉底盘使用\SDK与API的使用\API example Demo">Restful api example demo</a>
+         - [通过RESTful+API抓log](https://confluence.slamtec.com/pages/viewpage.action?pageId=113804357)
+     - ROS
+         - [初步了解ROS并通过命令行使用ROS SDK](https://confluence.slamtec.com/pages/viewpage.action?pageId=36209019)
+         - [ROS SDK 例程](https://wiki.slamtec.com/display/SD/ROS+SDK)
+ - 常规文件资料
+     - [官网下载与支持](https://www.slamtec.com/cn/Support)
+     - [下载与支持中SDK与固件](https://www.slamtec.com/cn/Support#slamware)
+     - [下载与支持中产品手册等](https://www.slamtec.com/cn/Support#apollo)
+     - [下载与支持中slamkit页面](https://www.slamtec.com/cn/Support#slamkit)
+ - wiki地址
+     - [Slamtec开发者中心](https://wiki.slamtec.com/display/SD)
+ - 已有认证资料
+     - <a href="file:\\10.254.0.28\Share Open\机器人事业部\业务\03 RPSG_销售技术支持\产品发布文档\产品认证资料">产品发布文档认证资料</a>  
+ - 案例视频
+     - <a href="file:\\10.254.0.3\Share\temp\chenxin\FAQ&方案汇总（我要做什么）\指导客户使用或熟悉底盘使用\案例视频\Hermes 维修维护视频（有字幕版）">hermes拆装视频</a> 
+     - <a href="file:\\10.254.0.28\Share Open\项目产品交付部\03 客户端项目运维\00 - 外发资料\售后支持工具包\工业AGV整机及底盘支持工具包">工业AGV整机及底盘支持工具包</a> 
+ - 快速使用文档
+     - <a href="file:\\10.254.0.3\Share\temp\chenxin\FAQ&方案汇总（我要做什么）\指导客户使用或熟悉底盘使用\快速使用文档">快速使用文档</a> 
+ - 网络问题
+     - <a href="file:\\10.254.0.3\Share\temp\chenxin\FAQ&方案汇总（我要做什么）\指导客户使用或熟悉底盘使用\网络问题">2.0底盘管理网络设置方法</a>
+ - 问题收集反馈方式
+     - <a href="file:\\10.254.0.3\Share\temp\chenxin\FAQ&方案汇总（我要做什么）\指导客户使用或熟悉底盘使用\网络问题">问题反馈方式</a>
+ - 结构设计建议
+     - [底盘上装结构设计要求]()
+         - [传感器相关注意事项]()
+         - [负重注意事项]()
+         - [线材、接线使用注意事项]()
+# 调整机器行为及其他配置参数
+ - 常规调整
+     - 运动策略
+         - [支持侧关于场景化运动策略的使用声明]()
+         - [场景化运动策略](https://confluence.slamtec.com/pages/viewpage.action?pageId=113803775)
+             - [agile 敏捷模式](https://confluence.slamtec.com/pages/viewpage.action?pageId=117703291)
+             - [delivery 餐厅配送](https://confluence.slamtec.com/pages/viewpage.action?pageId=113803777)
+             - [depot--工厂、仓库](https://confluence.slamtec.com/pages/viewpage.action?pageId=117702750)
+             - [inventory - 商超盘点](https://confluence.slamtec.com/pages/viewpage.action?pageId=113805460)
+             - [low_speed 低速模式](https://confluence.slamtec.com/pages/viewpage.action?pageId=113804068)
+     - 速度加速等
+         - [关于速度\加速参数的详细说明]()
+ - 特定问题调整
+     - 多机避让问题
+         - [lora接线与使能](https://confluence.slamtec.com/pages/viewpage.action?pageId=127041661)
+         - [基于Lora的多机调度部署方法](https://confluence.slamtec.com/pages/viewpage.action?pageId=82645164)
+     - 多通路问题
+         - [多通路问题分析]()
+     - 调整避让距离
+         - [底盘行走避让相关参数的配置说明]()
+     - 通过窄道
+         - [窄道区域的使用](https://slamtec.feishu.cn/docx/LPbjdV399oLcAtxsnBIc1vD4nod?from=from_copylink)
+         - [矩形底盘的版本与参数调整]()
+# 适配客户需求（仅标品不能满足）
+ - 产品形态
+ - 多机调度方案
+ - 室外场景使用
+ - 特别防护
+ - 电池需求
+ - 补充产品认证
+ - 载重需求
+ - 额外加传感器
+     - [如何向思岚支持申请增加深度相机补盲](https://slamtec.feishu.cn/docx/KERddzpV7oiBd7xPYSFcwGcsndL?from=from_copylink)
+     - [深度外参配置方法](https://confluence.slamtec.com/pages/viewpage.action?pageId=113804267)
+     - [电应普使用RS485通信超声波模块通信ID修改方法](https://confluence.slamtec.com/pages/viewpage.action?pageId=135890432)
+ - 新型号传感器适配
+ - 反光板辅助定位
+     - [反光板辅助定位部署手册](https://confluence.slamtec.com/pages/viewpage.action?pageId=135889001)
+ - 反光板精准对接
+     - [反光板末端引导对接部署方法](https://confluence.slamtec.com/pages/viewpage.action?pageId=143687893)
+ - 机器灯带灯光控制
+     - 
+# 部署
+ - 雷达校准
+     - [雷达校准](https://confluence.slamtec.com/pages/viewpage.action?pageId=51091922)
+     - [雷达调整工具](https://confluence.slamtec.com/pages/viewpage.action?pageId=51091922)
+     - [雷达外参标定工具](https://confluence.slamtec.com/pages/viewpage.action?pageId=42043677)
+     - [工业底盘部署手册](https://slamtec.feishu.cn/docx/Y6KpdznBrozAICx7gbjcLI1Lnmg)
+ - 云端相关
+     - [云端系统功能快速介绍](https://confluence.slamtec.com/pages/viewpage.action?pageId=127043043)
+ - 固件、配置升级
+     - <a href="\\10.254.0.3\Share\temp\chenxin\FAQ&方案汇总（我要做什么）\部署\固件、配置升级">机器人固件升级&cubeconfig更新</a>
+ - 电梯梯控相关
+ - [现场环境勘察](https://slamtec.feishu.cn/docx/OxOLd7KjXocPo8xa61CcmCnnnoc?from=from_copylink)
+# 硬件故障定位
+ - [底盘固件相关的health信息汇总](https://confluence.slamtec.com/pages/viewpage.action?pageId=42044818)
+ - [cube相关console常用命令](https://confluence.slamtec.com/pages/viewpage.action?pageId=49480664)
+ - 激光雷达
+ - imu
+     - [如何检测imu是否正常](https://confluence.slamtec.com/display/SLAM/How+to+test+if+IMU+of+Slamware+Core+work+well)
+ - 传感器
+ - cube主控盒与cube2base部分
+     - [cube系统base主控盒LED指示灯说明](https://confluence.slamtec.com/pages/viewpage.action?pageId=42044855)
+ - 电机和驱动器
+ - cube电源盒与cube2电源部分
+     - [cube系统PMU电源盒LED指示灯说明](https://confluence.slamtec.com/pages/viewpage.action?pageId=42044864)
